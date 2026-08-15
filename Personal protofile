@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <!-- Responsive viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My Personal Portfolio</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+          rel="stylesheet">
+
+    <!-- CSS File -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- =========================
+         NAVIGATION BAR
+    ========================== -->
+
+    <header>
+        <nav class="navbar">
+
+            <div class="logo">
+                MyPortfolio
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+
+    <!-- =========================
+         HERO / PROFILE SECTION
+    ========================== -->
+
+    <section id="home" class="hero">
+
+        <div class="hero-content">
+
+            <p class="intro">HELLO, I'M</p>
+
+            <!-- Change this name -->
+            <h1>Your Name</h1>
+
+            <!-- Change your role -->
+            <h2>Computer Science Engineering Student</h2>
+
+            <p>
+                Passionate about technology, programming and creating
+                innovative solutions through software development.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#projects" class="btn primary-btn">
+                    View My Work
+                </a>
+
+                <a href="#contact" class="btn secondary-btn">
+                    Contact Me
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <!-- Professional photo / avatar placeholder -->
+
+        <div class="profile-container">
+
+            <div class="profile-placeholder">
+                <span>YOUR<br>PHOTO</span>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         ABOUT ME SECTION
+    ========================== -->
+
+    <section id="about" class="section about">
+
+        <div class="section-title">
+            <p>GET TO KNOW ME</p>
+            <h2>About Me</h2>
+        </div>
+
+        <div class="about-content">
+
+            <div class="about-text">
+
+                <p>
+                    I am a Computer Science Engineering student with a
+                    strong interest in programming, web development and
+                    emerging technologies.
+                </p>
+
+                <p>
+                    I enjoy learning new technologies, solving problems
+                    and building creative projects that can provide
+                    useful solutions to real-world challenges.
+                </p>
+
+                <p>
+                    My goal is to continuously improve my technical skills
+                    and grow as a software developer.
+                </p>
+
+            </div>
+
+            <div class="about-info">
+
+                <div class="info-box">
+                    <h3>Education</h3>
+                    <p>B.Tech / B.E. in Computer Science</p>
+                </div>
+
+                <div class="info-box">
+                    <h3>Interests</h3>
+                    <p>Web Development, AI, IoT & Technology</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         SKILLS SECTION
+    ========================== -->
+
+    <section id="skills" class="section skills">
+
+        <div class="section-title">
+            <p>MY EXPERTISE</p>
+            <h2>Technical Skills</h2>
+        </div>
+
+
+        <div class="skills-grid">
+
+            <div class="skill-card">
+                <div class="skill-icon">&lt;/&gt;</div>
+                <h3>HTML5</h3>
+                <p>Web Structure</p>
+            </div>
+
+
+            <div class="skill-card">
+                <div class="skill-icon">#</div>
+                <h3>CSS3</h3>
+                <p>Web Styling</p>
+            </div>
+
+
+            <div class="skill-card">
+                <div class="skill-icon">C</div>
+                <h3>C Programming</h3>
+                <p>Programming</p>
+            </div>
+
+
+            <div class="skill-card">
+                <div class="skill-icon">J</div>
+                <h3>Java</h3>
+                <p>Object-Oriented Programming</p>
+            </div>
+
+
+            <div class="skill-card">
+                <div class="skill-icon">Py</div>
+                <h3>Python</h3>
+                <p>Programming & Data</p>
+            </div>
+
+
+            <div class="skill-card">
+                <div class="skill-icon">DB</div>
+                <h3>DBMS</h3>
+                <p>Database Management</p>
+            </div>
+
+
+            <div class="skill-card">
+                <div class="skill-icon">G</div>
+                <h3>Git & GitHub</h3>
+                <p>Version Control</p>
+            </div>
+
+
+            <div class="skill-card">
+                <div class="skill-icon">DS</div>
+                <h3>Data Structures</h3>
+                <p>Algorithms & Problem Solving</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         PROJECTS SECTION
+    ========================== -->
+
+    <section id="projects" class="section projects">
+
+        <div class="section-title">
+            <p>MY WORK</p>
+            <h2>Projects</h2>
+        </div>
+
+
+        <div class="project-grid">
+
+            <!-- Project 1 -->
+
+            <div class="project-card">
+
+                <div class="project-image">
+                    PROJECT 01
+                </div>
+
+                <div class="project-content">
+
+                    <span class="project-number">
+                        01
+                    </span>
+
+                    <h3>Travel Explorer</h3>
+
+                    <p>
+                        A travel assistance application that helps users
+                        explore new places by providing information about
+                        destinations, famous food, temples, distances and
+                        estimated expenses.
+                    </p>
+
+                    <div class="technologies">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+
+                    <!-- Replace # with your GitHub project URL -->
+
+                    <a href="#" class="github-link">
+                        View on GitHub →
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- Project 2 -->
+
+            <div class="project-card">
+
+                <div class="project-image">
+                    PROJECT 02
+                </div>
+
+                <div class="project-content">
+
+                    <span class="project-number">
+                        02
+                    </span>
+
+                    <h3>Weather Forecasting Model</h3>
+
+                    <p>
+                        A simple machine learning project that uses
+                        historical weather data to demonstrate how
+                        temperature predictions can be generated using
+                        a regression model.
+                    </p>
+
+                    <div class="technologies">
+                        <span>Python</span>
+                        <span>ML</span>
+                        <span>Data</span>
+                    </div>
+
+                    <!-- Replace # with your GitHub project URL -->
+
+                    <a href="#" class="github-link">
+                        View on GitHub →
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- Optional Project 3 -->
+
+            <div class="project-card">
+
+                <div class="project-image">
+                    PROJECT 03
+                </div>
+
+                <div class="project-content">
+
+                    <span class="project-number">
+                        03
+                    </span>
+
+                    <h3>Student Management System</h3>
+
+                    <p>
+                        A database-based application designed to manage
+                        student information, academic records and other
+                        basic student details efficiently.
+                    </p>
+
+                    <div class="technologies">
+                        <span>Java</span>
+                        <span>DBMS</span>
+                        <span>SQL</span>
+                    </div>
+
+                    <a href="#" class="github-link">
+                        View on GitHub →
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         CONTACT SECTION
+    ========================== -->
+
+    <section id="contact" class="section contact">
+
+        <div class="section-title">
+            <p>GET IN TOUCH</p>
+            <h2>Contact Me</h2>
+        </div>
+
+
+        <div class="contact-container">
+
+            <div class="contact-text">
+
+                <h3>Let's Connect!</h3>
+
+                <p>
+                    I am always interested in learning, collaborating
+                    and working on new technology projects.
+                </p>
+
+                <p>
+                    Feel free to reach out through email or social
+                    platforms.
+                </p>
+
+            </div>
+
+
+            <div class="contact-details">
+
+                <div class="contact-item">
+                    <span class="contact-icon">✉</span>
+
+                    <div>
+                        <h4>Email</h4>
+                        <a href="mailto:yourname@example.com">
+                            yourname@example.com
+                        </a>
+                    </div>
+                </div>
+
+
+                <div class="contact-item">
+                    <span class="contact-icon">in</span>
+
+                    <div>
+                        <h4>LinkedIn</h4>
+                        <a href="#" target="_blank">
+                            LinkedIn Profile
+                        </a>
+                    </div>
+                </div>
+
+
+                <div class="contact-item">
+                    <span class="contact-icon">GH</span>
+
+                    <div>
+                        <h4>GitHub</h4>
+                        <a href="#" target="_blank">
+                            GitHub Profile
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+
+    <footer>
+
+        <div class="footer-content">
+
+            <h2>MyPortfolio</h2>
+
+            <p>
+                Designed & Built with HTML and CSS.
+            </p>
+
+            <div class="social-links">
+                <a href="#">GitHub</a>
+                <a href="#">LinkedIn</a>
+                <a href="mailto:yourname@example.com">Email</a>
+            </div>
+
+        </div>
+
+        <p class="copyright">
+            © 2026 Your Name. All Rights Reserved.
+        </p>
+
+    </footer>
+
+</body>
+</html>
